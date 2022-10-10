@@ -8,6 +8,8 @@ fun main(){
     doTransaction(playTheGame)
 }
 
+// tes tambah comment
+
 inline fun doTransaction(doPlay:() -> Unit){
     println("saldo sebelum bermain: $balance")
     doPlay()
